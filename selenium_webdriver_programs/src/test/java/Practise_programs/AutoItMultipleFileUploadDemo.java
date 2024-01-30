@@ -20,6 +20,7 @@ public class AutoItMultipleFileUploadDemo
 		Thread.sleep(2000);
     	Runtime.getRuntime().exec("C://AutoITFiles//FileUpload.exe"+" "+"C:\\Users\\ics-guest\\OneDrive\\Desktop\\orange.jpg");
 		Thread.sleep(5000);
+		System.out.println("Files are uploaded successfully");
 		driver.quit();
 		
 		
